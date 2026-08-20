@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Northstar Homes Bot</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="chat">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Northstar Homes</p>
+          <h1>Northstar One Sales Bot</h1>
+        </div>
+        <button id="newChatButton" type="button">New Chat</button>
+      </header>
+
+      <div id="messages" class="messages"></div>
+
+      <form id="chatForm" class="composer">
+        <input id="messageInput" autocomplete="off" placeholder="Type in English, Hindi, or Hinglish" required>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <aside class="panel">
+      <h2>Lead Analytics</h2>
+      <pre id="analytics">{}</pre>
+    </aside>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
+
