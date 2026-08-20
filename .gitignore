@@ -5,7 +5,3 @@ __pycache__/
 venv/
 .pytest_cache/
 
-# Ignore user-requested top-level files
-VIDEO_SCRIPT.md
-README.md
-
